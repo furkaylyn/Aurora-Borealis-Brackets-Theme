@@ -1,0 +1,48 @@
+
+/*
+ * Aurora Borealis Brackets Theme
+ * Author: Hüseyin Furkan BALTA
+ */
+
+@background: #1B263B; /* Koyu Lacivert */
+@text: #F0F8FF; /* Buz Beyazı */
+@keyword: #9370DB; /* Aurora Moru */
+@string: #FFD700; /* Açık Altın */
+@comment: #B0C4DE; /* Donuk Gri */
+@function: #00BFFF; /* Elektrik Mavisi */
+@number: #7FFFD4; /* Yumuşak Yeşil */
+
+.CodeMirror {
+    background: @background;
+    color: @text;
+}
+
+.CodeMirror-selected {
+    background: #40E0D0 !important; /* Hafif Turkuaz */
+}
+
+.cm-keyword {
+    color: @keyword;
+}
+
+.cm-string {
+    color: @string;
+}
+
+.cm-comment {
+    color: @comment;
+    font-style: italic;
+}
+
+.cm-variable {
+    color: @function;
+}
+
+.cm-number {
+    color: @number;
+}
+
+/* Brackets UI Colors */
+#editor-holder {
+    background: @background;
+}
